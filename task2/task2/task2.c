@@ -1,11 +1,11 @@
 ﻿#include <stdio.h>
-#define PI 3.1415926
+#define _USE_MATH_DEFINES
 #include <math.h>
 
 
 double F(double x)
 {
-    return  (sin((PI / 2) + 3 * x)) / (1 - sin(3 * x - PI));
+    return  (sin((M_PI / 2) + 3 * x)) / (1 - sin(3 * x - M_PI));
 }
 
 void main(void)

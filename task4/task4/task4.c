@@ -1,5 +1,5 @@
 ﻿#include <stdio.h>
-#define PI 3.1415926
+#define _USE_MATH_DEFINES
 #include <math.h>
 
 
@@ -19,5 +19,5 @@ void main(void)
 
 void F(void)
 {
-    result = (sin((PI / 2) + 3 * x)) / (1 - sin(3 * x - PI));
+    result = (sin((M_PI / 2) + 3 * x)) / (1 - sin(3 * x - M_PI));
 }
